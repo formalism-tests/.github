@@ -1,0 +1,3 @@
+# formalism-tests organization coordination
+
+The existing authority remains in [`FORMALISM_TESTS_ORG_BOUNDARY_MIRROR_HANDOFF.md`](FORMALISM_TESTS_ORG_BOUNDARY_MIRROR_HANDOFF.md). The bounded [organization root-license census](docs/OPEN_SOURCE_ORGANIZATION_INVENTORY_20260926.json) checks 10 registered repository roots under existing central `ECOSYSTEM-OPEN-SOURCE-STRATEGY-001` / COSV `20010010100000`. Root LICENSE and LICENSE.md were not found at checked default branches. Neither absence of historical/file grants nor legal ownership or redistribution authorization is inferred. Central public census receives only aggregate counts, never nonpublic repository identities.
