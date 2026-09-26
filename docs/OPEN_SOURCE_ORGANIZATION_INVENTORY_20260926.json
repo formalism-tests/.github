@@ -1,0 +1,78 @@
+{
+  "schema": "stegverse.organization-open-source-inventory/v1",
+  "organization": "formalism-tests",
+  "snapshot_date": "2026-09-26",
+  "canonical_goal": "ECOSYSTEM-OPEN-SOURCE-STRATEGY-001",
+  "cosv": "20010010100000",
+  "scope": "Authenticated organization repository listing and default-branch LICENSE and LICENSE.md root reads. Does not establish historical grants or file-level rights.",
+  "visibility": "INTERNAL_SOURCE_OWNER_EVIDENCE",
+  "counts": {
+    "repositories": 10,
+    "public": 1,
+    "private": 8,
+    "internal": 1,
+    "root_license_found": 0,
+    "checked_root_paths_missing": 10,
+    "copyright_title_verified": 0,
+    "release_authorizations": 0
+  },
+  "repositories": [
+    {
+      "repository": "formalism-tests/Existence",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "formalism-tests/GCAT-BCAT",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "formalism-tests/Inference-Window",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "formalism-tests/Entropy-Reversibility",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "formalism-tests/sandbox",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "formalism-tests/.github",
+      "visibility": "internal",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "formalism-tests/ECAT-ICAT",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "formalism-tests/Transition-Periodic-Table",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "formalism-tests/core-lite",
+      "visibility": "public",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    },
+    {
+      "repository": "formalism-tests/Triad",
+      "visibility": "private",
+      "root_license_observation": "LICENSE_AND_LICENSE_MD_NOT_FOUND"
+    }
+  ],
+  "dispositions": [
+    "ROOT_ONLY_LICENSE_SCOPE_UNVERIFIED",
+    "CONTRIBUTOR_RIGHTS_UNVERIFIED",
+    "THIRD_PARTY_RIGHTS_UNVERIFIED",
+    "RELEASE_NOT_AUTHORIZED"
+  ],
+  "central_disclosure": "AGGREGATE_COUNTS_ONLY_NO_NONPUBLIC_REPOSITORY_NAMES"
+}
