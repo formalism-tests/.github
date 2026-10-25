@@ -51,7 +51,7 @@
       "sha256": "sha256:a3474763b055363d640e3e7bc72ae2960801ac259ffbb1e0fbb74b1e75036b3b"
     },
     {
-      "path": ".github/workflows/intr-ingress-ledger-component-validation.yml",
+      "path": "tools/tasks/folded/intr-ingress-ledger-component-validation.yml",
       "sha256": "sha256:c4fc5422e5e1a1075f8988f520122161673955fef44ae12fc1348d3949b847ad"
     },
     {
