@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:formalism-tests->Admissible-Existence",
+    "destination_organization": "Admissible-Existence",
+    "disposition": "ALLOW",
+    "operation": "INTR_MESH_PATH_TRANSFER",
+    "path_id": "formalism-tests->Admissible-Existence:intr-destination",
+    "profile_id": "intr-mesh-path-transfer",
+    "repository": "formalism-tests/.github",
+    "transfer_commit": "148fceb72dc2e76b348d566847db63bc09864adb"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "formalism-tests",
+  "predecessor_org_state_sha256": "sha256:9b9894884a8c3f124b92dae470250d1d04f08306fce86985fc4fc4627400bd0c",
+  "previous_receipt_sha256": "sha256:a5f6105924558480fa5fb74791779f7f1dc4f93f0c281af465f81fc4dcedfb9b",
+  "receipt_sha256": "sha256:0c01304e2cd304ac3e2f8cb8687527d5739d77247ce1cf1bb2692e3fcdd4fcde",
+  "repo_receipt_sha256": "sha256:088662634ff011a9fd3d2413a792c4f4179c4d60c046d392ef9e8fc7493839ed",
+  "repo_transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->Admissible-Existence:intr-destination@intr-path-v1:formalism-tests->Admissible-Existence",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "formalism-tests/.github",
+  "source_transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->Admissible-Existence:intr-destination@intr-path-v1:formalism-tests->Admissible-Existence",
+  "source_transition_sha256": "sha256:088662634ff011a9fd3d2413a792c4f4179c4d60c046d392ef9e8fc7493839ed",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:336b752b54184eea52ea456cc49d11fd63317f63d59863b2b94ca8dea78bf0b3"
+}
