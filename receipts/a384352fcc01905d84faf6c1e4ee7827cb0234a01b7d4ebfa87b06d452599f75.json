@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:Infrastructure-Continuity-Ventures->formalism-tests",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "Infrastructure-Continuity-Ventures->formalism-tests:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:3b41e39f67a2db2b6f80799dc57f2694a2945411bb042addd3b1b297482f6162",
+    "source_repository": "Infrastructure-Continuity-Ventures/.github",
+    "source_repository_receipt_sha256": "sha256:0537b1e48407599921f8805fa55433972cb483e299296b2728000f3019880789"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "formalism-tests",
+  "predecessor_org_state_sha256": "sha256:1f90c74cbb9605c30d0b737ee57ba3af433a62c2826520d373d3f93f7426545e",
+  "previous_receipt_sha256": "sha256:b7485c876a31d9bab51f0bd9bf4b0624e2e66e0339496631c7105c8e186023d4",
+  "receipt_sha256": "sha256:a384352fcc01905d84faf6c1e4ee7827cb0234a01b7d4ebfa87b06d452599f75",
+  "repo_receipt_sha256": "sha256:552a5415c174f3b0be2be131776a83873eb7c1be07c52813ce7aa49e1246b5b4",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:Infrastructure-Continuity-Ventures->formalism-tests:intr-destination@intr-path-v1:Infrastructure-Continuity-Ventures->formalism-tests",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "formalism-tests/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:Infrastructure-Continuity-Ventures->formalism-tests:intr-destination@intr-path-v1:Infrastructure-Continuity-Ventures->formalism-tests",
+  "source_transition_sha256": "sha256:552a5415c174f3b0be2be131776a83873eb7c1be07c52813ce7aa49e1246b5b4",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:b8f71e1b2ee5cae01008b592bcdb38b6d7c42321fc47ce45b5b837b0bf70b01d"
+}
