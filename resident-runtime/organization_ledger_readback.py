@@ -128,7 +128,7 @@ def readback(location, closure_result=None):
             "closure_receipt_in_chain": True,
             "closure_communication_id": communication_id,
             "closure_receipt_carries_communication_id": True,
-            "master_records_awaited": False,
+            "formalism_tests_awaited": False,
         })
     return result
 
