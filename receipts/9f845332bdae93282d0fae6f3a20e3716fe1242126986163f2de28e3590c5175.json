@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:formalism-tests->GCAT-BCAT-Engine",
+    "destination_organization": "GCAT-BCAT-Engine",
+    "disposition": "ALLOW",
+    "operation": "INTR_MESH_PATH_TRANSFER",
+    "path_id": "formalism-tests->GCAT-BCAT-Engine:intr-destination",
+    "profile_id": "intr-mesh-path-transfer",
+    "repository": "formalism-tests/.github",
+    "transfer_commit": "148fceb72dc2e76b348d566847db63bc09864adb"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "formalism-tests",
+  "predecessor_org_state_sha256": "sha256:8ea05bb7844c64551511a632c1bd34f81f524ca5a0afbddd8b0884c4e83abf61",
+  "previous_receipt_sha256": "sha256:edc2d1e5daf1038ca770f269d8522c7184b4fe82e8167cd100aa192485258647",
+  "receipt_sha256": "sha256:9f845332bdae93282d0fae6f3a20e3716fe1242126986163f2de28e3590c5175",
+  "repo_receipt_sha256": "sha256:3aad23f82bc849c8e0be0bc00d35f49c5831765fb2f88df0d3418f981e22eca8",
+  "repo_transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->GCAT-BCAT-Engine:intr-destination@intr-path-v1:formalism-tests->GCAT-BCAT-Engine",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "formalism-tests/.github",
+  "source_transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->GCAT-BCAT-Engine:intr-destination@intr-path-v1:formalism-tests->GCAT-BCAT-Engine",
+  "source_transition_sha256": "sha256:3aad23f82bc849c8e0be0bc00d35f49c5831765fb2f88df0d3418f981e22eca8",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:b16d10b3895b4cdf3fbc3c3685f221ab7e86983e26bb5d93d93ef2b76f405744"
+}
