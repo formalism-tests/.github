@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:formalism-tests->StegVerse-org",
+    "destination_organization": "StegVerse-org",
+    "disposition": "ALLOW",
+    "operation": "INTR_MESH_PATH_TRANSFER",
+    "path_id": "formalism-tests->StegVerse-org:intr-destination",
+    "profile_id": "intr-mesh-path-transfer",
+    "repository": "formalism-tests/.github",
+    "transfer_commit": "148fceb72dc2e76b348d566847db63bc09864adb"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "formalism-tests",
+  "predecessor_org_state_sha256": "sha256:01e9b326b95a66b174c2c49d2b12ee91395ce5a0989c2dd17f2d55306381189f",
+  "previous_receipt_sha256": "sha256:02ef5e23098f017ce6b9a0a34fbb29f9312b595b6199ee3142999915dd9d5adc",
+  "receipt_sha256": "sha256:140de694990e2fce0944a85a3dfedbdce35bffe11a2dffec8509748772587378",
+  "repo_receipt_sha256": "sha256:a1a23deef11de583e2dccf4ccd5ab453b1dddeb3636a119fe25988ecdbf3c356",
+  "repo_transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->StegVerse-org:intr-destination@intr-path-v1:formalism-tests->StegVerse-org",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "formalism-tests/.github",
+  "source_transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->StegVerse-org:intr-destination@intr-path-v1:formalism-tests->StegVerse-org",
+  "source_transition_sha256": "sha256:a1a23deef11de583e2dccf4ccd5ab453b1dddeb3636a119fe25988ecdbf3c356",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:dd5aa043e3d7103519209b756f907570f4ae5d2382bdd181c601c33657fa76c7"
+}
