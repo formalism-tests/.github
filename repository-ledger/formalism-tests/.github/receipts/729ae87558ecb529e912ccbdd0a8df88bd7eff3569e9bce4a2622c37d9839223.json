@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:formalism-tests->AdmittedCode",
+    "destination_address": "admittedcode.intr-destination",
+    "destination_organization": "AdmittedCode",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:bd7fe13ba8637cbf4c5e6459fcefc9971726c2cda47e463d14393a2dddf77824",
+    "message": {
+      "body": {
+        "path_id": "formalism-tests->AdmittedCode:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "148fceb72dc2e76b348d566847db63bc09864adb"
+      },
+      "communication_id": "intr-path-v1:formalism-tests->AdmittedCode",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:aa92a78f651a22049bcae5240a1f6fba76b522bf84aff5935f677d4f6b27b525",
+    "path_id": "formalism-tests->AdmittedCode:intr-destination",
+    "payload_sha256": "sha256:97eb24ea189a43f877d2e17e5edc979416cd8d88b0a5614516a8a65a3823804d",
+    "repository": "formalism-tests/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "formalism-tests",
+    "transfer_commit": "148fceb72dc2e76b348d566847db63bc09864adb"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:97eb24ea189a43f877d2e17e5edc979416cd8d88b0a5614516a8a65a3823804d",
+  "previous_receipt_sha256": "sha256:088662634ff011a9fd3d2413a792c4f4179c4d60c046d392ef9e8fc7493839ed",
+  "receipt_sha256": "sha256:729ae87558ecb529e912ccbdd0a8df88bd7eff3569e9bce4a2622c37d9839223",
+  "repository": "formalism-tests/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:d335f8cc2cf13d5c89b3337c64508a53b002b5dc2b40ed0b337be9de7747e9a0",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->AdmittedCode:intr-destination@intr-path-v1:formalism-tests->AdmittedCode"
+}
