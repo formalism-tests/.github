@@ -1,0 +1,48 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "addressed_service": "formalism-tests.intr-destination",
+    "communication_id": "intr-path-v1:ECAT-ICAT-Formal->formalism-tests",
+    "disposition": "ALLOW",
+    "message": {
+      "body": {
+        "path_id": "ECAT-ICAT-Formal->formalism-tests:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "f11bd9f1a972ce10338a49392476068614138d15"
+      },
+      "communication_id": "intr-path-v1:ECAT-ICAT-Formal->formalism-tests",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:6735ed0f42a486d0b0ca0c225207fd926a63f5c7123984468f7a569c00b93965",
+    "path_id": "ECAT-ICAT-Formal->formalism-tests:intr-destination",
+    "payload_sha256": "sha256:6365994c22345ba0ce1e1205880529156d366828f62a2aff30e9aa2d89a84e85",
+    "repository": "formalism-tests/.github",
+    "schema": "stegverse.intr-path-ingress-evidence/v1",
+    "source_inclusion": {
+      "source_ledger_tip": "02fca879bf50618f601055f5af531e12a1915266",
+      "state": "VERIFIED_BY_ANONYMOUS_PUBLIC_LEDGER_READ",
+      "tvc_read_receipt": null
+    },
+    "source_organization_receipt_sha256": "sha256:5974a49ce0b6d252aed6c4d53030cec57e537d85d710b4828a6ad258c8afd44c",
+    "source_repository": "ECAT-ICAT-Formal/.github",
+    "source_repository_receipt_sha256": "sha256:47a3bf075df673c9397d077e47c2919932a84c43a48e55c8956a7c4bb1c8db03"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:6365994c22345ba0ce1e1205880529156d366828f62a2aff30e9aa2d89a84e85",
+  "previous_receipt_sha256": "sha256:85afd6f8fa141cb7a4b26eef435ed2f864e00b439a8efeac4b8bb3bd806a5ee2",
+  "receipt_sha256": "sha256:e1b37fc422813f2dac7eac64b3d79cc2fee7abd7c8bbcf7530cf6a20e66529ed",
+  "repository": "formalism-tests/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:1d36704ece7b83b778ad7a68db35ffb379cdaf8d3dc5abf6aa1eab88f2895b95",
+  "transition_class": "INTR_MESH_PATH_INGRESS",
+  "transition_id": "INTR_MESH_PATH_INGRESS:ECAT-ICAT-Formal->formalism-tests:intr-destination@intr-path-v1:ECAT-ICAT-Formal->formalism-tests"
+}
