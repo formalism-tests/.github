@@ -1,0 +1,48 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "addressed_service": "formalism-tests.intr-destination",
+    "communication_id": "intr-path-v1:AdmittedCode->formalism-tests",
+    "disposition": "ALLOW",
+    "message": {
+      "body": {
+        "path_id": "AdmittedCode->formalism-tests:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "66ef07f63d4727b8443b85211e467854c787bbb3"
+      },
+      "communication_id": "intr-path-v1:AdmittedCode->formalism-tests",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:1522cd874f848620e16db480080bb4f61130e1fc35f84466963442572edbf423",
+    "path_id": "AdmittedCode->formalism-tests:intr-destination",
+    "payload_sha256": "sha256:0aa581b839984f66cbfcbe68c10cfbf43b02b436c56d5f9d094841e57445592d",
+    "repository": "formalism-tests/.github",
+    "schema": "stegverse.intr-path-ingress-evidence/v1",
+    "source_inclusion": {
+      "source_ledger_tip": "bd38d0aa58168a268d72796821dc6e505c104817",
+      "state": "VERIFIED_BY_ANONYMOUS_PUBLIC_LEDGER_READ",
+      "tvc_read_receipt": null
+    },
+    "source_organization_receipt_sha256": "sha256:c1876e8697f8f50f6facfcc940bb8da4341bc9a5ca15a5c895337500d6af2b24",
+    "source_repository": "AdmittedCode/.github",
+    "source_repository_receipt_sha256": "sha256:52639267901e70c25ea45e8df273c1e01a62b9011566dfb51823981e1b9adc16"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:0aa581b839984f66cbfcbe68c10cfbf43b02b436c56d5f9d094841e57445592d",
+  "previous_receipt_sha256": "sha256:0e4cb67980ccb23f63817df3b05c806341652e2650936a55e2c11394069f37f5",
+  "receipt_sha256": "sha256:b7f3a2cfa289963695135d97b8ae05250e2de8582761202ae897760d56c7f22a",
+  "repository": "formalism-tests/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:808d64ed33fc390f6a9ed4398bea001f967d79d57b66902a4f871314cdab7ad7",
+  "transition_class": "INTR_MESH_PATH_INGRESS",
+  "transition_id": "INTR_MESH_PATH_INGRESS:AdmittedCode->formalism-tests:intr-destination@intr-path-v1:AdmittedCode->formalism-tests"
+}
