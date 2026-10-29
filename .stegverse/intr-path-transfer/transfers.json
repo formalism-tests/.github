@@ -1,0 +1,67 @@
+{
+  "schema": "stegverse.intr-path-transfer-declaration/v1",
+  "source_repository": "formalism-tests/.github",
+  "rule": "Each row declares one InTr transfer over a declared mesh path whose source is this organization. Landing a row on main is the transition: after that push's main-merge transfer is ledgered, .github/workflows/intr-path-transfer.yml appends the path's source receipt, linked to that main-merge transfer receipt. A row already ledgered is answered from the ledger. No dispatch.",
+  "transfers": [
+    {
+      "path_id": "formalism-tests->AaCT-E:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->AaCT-E"
+    },
+    {
+      "path_id": "formalism-tests->Admissible-Existence:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->Admissible-Existence"
+    },
+    {
+      "path_id": "formalism-tests->AdmittedCode:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->AdmittedCode"
+    },
+    {
+      "path_id": "formalism-tests->Data-Continuation:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->Data-Continuation"
+    },
+    {
+      "path_id": "formalism-tests->ECAT-ICAT-Formal:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->ECAT-ICAT-Formal"
+    },
+    {
+      "path_id": "formalism-tests->GCAT-BCAT-Engine:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->GCAT-BCAT-Engine"
+    },
+    {
+      "path_id": "formalism-tests->Infrastructure-Continuity-Ventures:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->Infrastructure-Continuity-Ventures"
+    },
+    {
+      "path_id": "formalism-tests->SV-011:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->SV-011"
+    },
+    {
+      "path_id": "formalism-tests->SV-LLM:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->SV-LLM"
+    },
+    {
+      "path_id": "formalism-tests->StegGhost:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->StegGhost"
+    },
+    {
+      "path_id": "formalism-tests->StegVerse-002:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->StegVerse-002"
+    },
+    {
+      "path_id": "formalism-tests->StegVerse-Labs:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->StegVerse-Labs"
+    },
+    {
+      "path_id": "formalism-tests->StegVerse-org:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->StegVerse-org"
+    },
+    {
+      "path_id": "formalism-tests->Triad-Test:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->Triad-Test"
+    },
+    {
+      "path_id": "formalism-tests->master-records:intr-destination",
+      "communication_id": "intr-path-v1:formalism-tests->master-records"
+    }
+  ]
+}
