@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:formalism-tests->Triad-Test",
+    "destination_address": "triad-test.intr-destination",
+    "destination_organization": "Triad-Test",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:bd7fe13ba8637cbf4c5e6459fcefc9971726c2cda47e463d14393a2dddf77824",
+    "message": {
+      "body": {
+        "path_id": "formalism-tests->Triad-Test:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "148fceb72dc2e76b348d566847db63bc09864adb"
+      },
+      "communication_id": "intr-path-v1:formalism-tests->Triad-Test",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:48d0844b2e40ebc29fa1839b8d17d00a34418f219a82d96ef3cf1f2364ce9045",
+    "path_id": "formalism-tests->Triad-Test:intr-destination",
+    "payload_sha256": "sha256:695ed043aeb08a4040ae4442ae5eb5b8cae3399122c38ffc06a9d6106fa23d25",
+    "repository": "formalism-tests/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "formalism-tests",
+    "transfer_commit": "148fceb72dc2e76b348d566847db63bc09864adb"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:695ed043aeb08a4040ae4442ae5eb5b8cae3399122c38ffc06a9d6106fa23d25",
+  "previous_receipt_sha256": "sha256:a1a23deef11de583e2dccf4ccd5ab453b1dddeb3636a119fe25988ecdbf3c356",
+  "receipt_sha256": "sha256:9790023336bd6dc86ff600661193546ac0e57e6beff83df850b4eb69bc7114a9",
+  "repository": "formalism-tests/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:ab9da87d6374a1c8d09adaf4c8332893620cc9fc944c4c6c4a211a45fb617b7e",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->Triad-Test:intr-destination@intr-path-v1:formalism-tests->Triad-Test"
+}

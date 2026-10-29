@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:formalism-tests->Triad-Test",
+    "destination_organization": "Triad-Test",
+    "disposition": "ALLOW",
+    "operation": "INTR_MESH_PATH_TRANSFER",
+    "path_id": "formalism-tests->Triad-Test:intr-destination",
+    "profile_id": "intr-mesh-path-transfer",
+    "repository": "formalism-tests/.github",
+    "transfer_commit": "148fceb72dc2e76b348d566847db63bc09864adb"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "formalism-tests",
+  "predecessor_org_state_sha256": "sha256:695ed043aeb08a4040ae4442ae5eb5b8cae3399122c38ffc06a9d6106fa23d25",
+  "previous_receipt_sha256": "sha256:140de694990e2fce0944a85a3dfedbdce35bffe11a2dffec8509748772587378",
+  "receipt_sha256": "sha256:0a4b2bc4f4d6013d4413d0488d759ec23fde88ab0a5b5bae7dbea773c8615c1c",
+  "repo_receipt_sha256": "sha256:9790023336bd6dc86ff600661193546ac0e57e6beff83df850b4eb69bc7114a9",
+  "repo_transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->Triad-Test:intr-destination@intr-path-v1:formalism-tests->Triad-Test",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "formalism-tests/.github",
+  "source_transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->Triad-Test:intr-destination@intr-path-v1:formalism-tests->Triad-Test",
+  "source_transition_sha256": "sha256:9790023336bd6dc86ff600661193546ac0e57e6beff83df850b4eb69bc7114a9",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:ab9da87d6374a1c8d09adaf4c8332893620cc9fc944c4c6c4a211a45fb617b7e"
+}
