@@ -1,0 +1,45 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "capability": "intr-destination",
+    "communication_id": "intr-path-v1:formalism-tests->StegGhost",
+    "destination_address": "stegghost.intr-destination",
+    "destination_organization": "StegGhost",
+    "disposition": "ALLOW",
+    "merge_transfer_organization_receipt_sha256": "sha256:bd7fe13ba8637cbf4c5e6459fcefc9971726c2cda47e463d14393a2dddf77824",
+    "message": {
+      "body": {
+        "path_id": "formalism-tests->StegGhost:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "148fceb72dc2e76b348d566847db63bc09864adb"
+      },
+      "communication_id": "intr-path-v1:formalism-tests->StegGhost",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:00c7cb8944f339aaa89e195987298582057893c5bfe35662ed12dec90fc6deaa",
+    "path_id": "formalism-tests->StegGhost:intr-destination",
+    "payload_sha256": "sha256:77a13dd21338eaed408da9d858055d052f5890672531cf5e6a66fa67c9207a3e",
+    "repository": "formalism-tests/.github",
+    "schema": "stegverse.intr-path-transfer-evidence/v1",
+    "source_organization": "formalism-tests",
+    "transfer_commit": "148fceb72dc2e76b348d566847db63bc09864adb"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:77a13dd21338eaed408da9d858055d052f5890672531cf5e6a66fa67c9207a3e",
+  "previous_receipt_sha256": "sha256:3a37b436639fa43b16e6c321c435c853ad182be07ee2dbdcc9c11ab6157e50f3",
+  "receipt_sha256": "sha256:03c79d02d67ce31e24914cfae5f9666273f9a7a8dec96688511c9e3e5a34f21b",
+  "repository": "formalism-tests/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:a8fb118035a390b417c3b9fa089bfb062b763157e026aea5e6d0b16153ea659f",
+  "transition_class": "INTR_MESH_PATH_TRANSFER",
+  "transition_id": "INTR_MESH_PATH_TRANSFER:formalism-tests->StegGhost:intr-destination@intr-path-v1:formalism-tests->StegGhost"
+}
