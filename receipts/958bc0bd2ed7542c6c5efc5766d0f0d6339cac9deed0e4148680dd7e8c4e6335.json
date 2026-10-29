@@ -1,0 +1,38 @@
+{
+  "authority_effect": "NONE",
+  "boundary_evidence": {
+    "communication_id": "intr-path-v1:SV-LLM->formalism-tests",
+    "disposition": "ALLOW",
+    "operation": "ORGANIZATION_INTR_DESTINATION_INGRESS",
+    "path_id": "SV-LLM->formalism-tests:intr-destination",
+    "profile_id": "intr-destination",
+    "source_organization_receipt_sha256": "sha256:65406865616cfeb582353cd4582242774f21ed8c8a441f3edfd272a12dcb30e4",
+    "source_repository": "SV-LLM/.github",
+    "source_repository_receipt_sha256": "sha256:bb938d0921e9dd925653f1036853286e03854d6aa7f95a3e9b01b9a5bf2f687d"
+  },
+  "canonical_state_transition_receipt_sha256": null,
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "org_transition_class": "REPO_STATE_PROPAGATION",
+  "organization": "formalism-tests",
+  "predecessor_org_state_sha256": "sha256:70e1acc2e04e64cdc10ce8a5cb5bd0bec5328f90e6f4970f972ba6d9c852cadd",
+  "previous_receipt_sha256": "sha256:bc95c9fa90b49483988c5b30ab2305d7dbdb782dfea3693cf28ef97cdfc07b20",
+  "receipt_sha256": "sha256:958bc0bd2ed7542c6c5efc5766d0f0d6339cac9deed0e4148680dd7e8c4e6335",
+  "repo_receipt_sha256": "sha256:e4103220b0008f97e5ea8ac73c4f803e81d7143b9fe8a2fac693b5fbd47b5535",
+  "repo_transition_id": "INTR_MESH_PATH_INGRESS:SV-LLM->formalism-tests:intr-destination@intr-path-v1:SV-LLM->formalism-tests",
+  "schema": "stegverse.organization-transition-receipt/v1",
+  "source_receipt_schema": "stegverse.repo-transition-receipt/v1",
+  "source_repository": "formalism-tests/.github",
+  "source_transition_id": "INTR_MESH_PATH_INGRESS:SV-LLM->formalism-tests:intr-destination@intr-path-v1:SV-LLM->formalism-tests",
+  "source_transition_sha256": "sha256:e4103220b0008f97e5ea8ac73c4f803e81d7143b9fe8a2fac693b5fbd47b5535",
+  "subject_or_correlation_id": null,
+  "successor_org_state_sha256": "sha256:7b55c97a4da5ea5ce22e0cfa407e9c07ade08ab2c22bb56f54c2d59d4703dc7b"
+}
