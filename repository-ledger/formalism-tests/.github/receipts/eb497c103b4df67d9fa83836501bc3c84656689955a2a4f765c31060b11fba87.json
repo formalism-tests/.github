@@ -1,0 +1,48 @@
+{
+  "authority_effect": "NONE",
+  "evidence": {
+    "addressed_service": "formalism-tests.intr-destination",
+    "communication_id": "intr-path-v1:SV-011->formalism-tests",
+    "disposition": "ALLOW",
+    "message": {
+      "body": {
+        "path_id": "SV-011->formalism-tests:intr-destination",
+        "schema": "stegverse.org-intr-destination-diagnostic/v1",
+        "transfer_commit": "447f30a12cbe607e1269a4d5688faad3f9a7d54b"
+      },
+      "communication_id": "intr-path-v1:SV-011->formalism-tests",
+      "message_class": "ecosystem.communication"
+    },
+    "message_sha256": "sha256:9c58b82a14acffb8c2bc97b9e52337439f43f997e585dfb7491c7466e27204a4",
+    "path_id": "SV-011->formalism-tests:intr-destination",
+    "payload_sha256": "sha256:19a4408eebd87cc7eefca31ae7968b30323cd025bcd1349d2a9118ae03662e8d",
+    "repository": "formalism-tests/.github",
+    "schema": "stegverse.intr-path-ingress-evidence/v1",
+    "source_inclusion": {
+      "source_ledger_tip": "8ddbec78f0a8eec17e990c0061c3f70b22191c97",
+      "state": "VERIFIED_BY_ANONYMOUS_PUBLIC_LEDGER_READ",
+      "tvc_read_receipt": null
+    },
+    "source_organization_receipt_sha256": "sha256:de6a3efb3be45312011165dae0e5362658fa1069b17eb7ed423ce29f8e93bd92",
+    "source_repository": "SV-011/.github",
+    "source_repository_receipt_sha256": "sha256:aaa6aee1d8b7793535a6960c92f6ae79cba9837c75b477a77f69cbd8b874b256"
+  },
+  "hb_reference": {
+    "authority_effect": "NONE",
+    "derived_from_clock": false,
+    "epoch": 469411750,
+    "frequency_hz": 100,
+    "generation": 469411750,
+    "heartbeat_id": "HB:469411750",
+    "phase_offset_ns": 0,
+    "progression_dependency": "OSCILLATOR_ONLY"
+  },
+  "predecessor_state_sha256": "sha256:19a4408eebd87cc7eefca31ae7968b30323cd025bcd1349d2a9118ae03662e8d",
+  "previous_receipt_sha256": "sha256:715bc9991dd660962b980e1bdc7a2380dc2606956b5d4710f0bc8e6d7281ad6a",
+  "receipt_sha256": "sha256:eb497c103b4df67d9fa83836501bc3c84656689955a2a4f765c31060b11fba87",
+  "repository": "formalism-tests/.github",
+  "schema": "stegverse.repo-transition-receipt/v1",
+  "successor_state_sha256": "sha256:7b824daac9c9082d557c89aeb0a37433150cd35ced544d73763fb458b662e447",
+  "transition_class": "INTR_MESH_PATH_INGRESS",
+  "transition_id": "INTR_MESH_PATH_INGRESS:SV-011->formalism-tests:intr-destination@intr-path-v1:SV-011->formalism-tests"
+}
